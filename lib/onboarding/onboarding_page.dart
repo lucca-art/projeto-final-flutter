@@ -14,17 +14,17 @@ class _OnboardingPageState extends State<OnboardingPage> {
 
   final List<Map<String, String>> _pages = [
     {
-      'image': 'assets/onboarding1.png',
+      'image': 'assets/images/onboarding1.png',
       'title': 'Bem-vindo ao App!',
       'subtitle': 'Gerencie tarefas com eficiência e simplicidade.'
     },
     {
-      'image': 'assets/onboarding2.png',
+      'image': 'assets/images/onboarding2.png',
       'title': 'Organize suas ideias',
       'subtitle': 'Crie listas, edite e marque tarefas como concluídas.'
     },
     {
-      'image': 'assets/onboarding3.png',
+      'image': 'assets/images/onboarding3.png',
       'title': 'Fácil de usar',
       'subtitle': 'Interface limpa, responsiva e com tema dinâmico.'
     },
