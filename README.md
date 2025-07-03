@@ -1,16 +1,37 @@
-# projeto_final
+# Projeto Final - Aplicativo Flutter: Login com Splash, Onboarding e Temas
 
-A new Flutter project.
+Este projeto Flutter é uma aplicação completa que simula a entrada e funcionamento básico de um app real. Ele foi desenvolvido como atividade prática final da disciplina de Desenvolvimento Mobile.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- ✅ **Splash Screen nativa** (via `flutter_native_splash`)
+- ✅ **Splash animada Flutter** com transição de escala
+- ✅ **Onboarding com 3 telas**: imagem + texto descritivo
+- ✅ **Tela de login funcional** com autenticação Supabase
+- ✅ **Validação de formulário** com campos customizados
+- ✅ **Cadastro e login com e-mail e senha**
+- ✅ **Suporte a temas claro e escuro** (alternável no app)
+- ✅ **Widgets personalizados reutilizáveis**
+- ✅ **To-do list funcional**: criar, editar, marcar e excluir tarefas
+- ✅ **Design responsivo e limpo**
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧩 Estrutura do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```plaintext
+projeto_final/
+├── assets/
+│   └── images/                # Imagens usadas no splash e onboarding
+├── lib/
+│   ├── auth/                  # Lógica de autenticação
+│   ├── home/                  # Tela inicial pós-login
+│   ├── login/                 # Tela de login e registro
+│   ├── onboarding/            # Onboarding com PageView
+│   ├── themes/                # light_theme.dart, dark_theme.dart, controller
+│   ├── todo/                  # Tela de lista de tarefas
+│   ├── widgets/               # Widgets reutilizáveis (TextFormField, Header)
+│   ├── models/                # Modelo de dados (Task)
+│   └── main.dart              # Ponto de entrada da aplicação
+├── pubspec.yaml
+├── README.md
