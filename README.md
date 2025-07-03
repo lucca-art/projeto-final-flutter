@@ -1,4 +1,4 @@
-# Projeto Final - Aplicativo Flutter: Login com Splash, Onboarding e Temas
+# Projeto Final
 
 Este projeto Flutter é uma aplicação completa que simula a entrada e funcionamento básico de um app real. Ele foi desenvolvido como atividade prática final da disciplina de Desenvolvimento Mobile.
 
